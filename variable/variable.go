@@ -1,15 +1,17 @@
 package main
+import ("fmt")
 
-import (
-	"fmt"
-)
+func main() {
+   var (
+     a int
+     b int = 1
+     c string = "hello"
+   )
 
-func main (){
-	var number1 int = 4
-	var number2 int = 5
+   const d = 3.14
 
-	var sum int = number1 + number2
-
-	fmt.Print(sum)
+  fmt.Println(a)
+  fmt.Println(b)
+  fmt.Println(c)
+  fmt.Println(d)
 }
-
